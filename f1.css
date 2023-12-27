@@ -1,0 +1,69 @@
+/* Basic styling */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.intro a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Grid styling */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.item {
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.item h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
